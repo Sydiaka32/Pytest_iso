@@ -1,4 +1,4 @@
-# 📨 ISO 20022 API Testing with Pytest
+# 📨 ISO API Testing with Pytest
 
 This project focuses on automated testing of financial message formats such as `pacs.008` and `pacs.009` using Pytest. It validates proper API handling of XML messages, particularly for structure correctness and status acknowledgment.
 
@@ -7,9 +7,7 @@ This project focuses on automated testing of financial message formats such as `
 | Tool             | Description |
 |------------------|-------------|
 | `pytest`         | Python testing framework used for writing and running test cases |
-| `pytest.mark.parametrize` | Built-in Pytest tool for running tests with different data inputs |
 | `requests`       | For making HTTP API calls to submit XML files |
-| `custom utils`   | Project-specific logic like `send_iso_file()` and `get_status_from_response()` to simplify file handling and parsing logic |
 
 ## 📁 Project Structure
 
@@ -31,7 +29,7 @@ This project focuses on automated testing of financial message formats such as `
 
 ### 1. Clone the Project
 ```bash
-git clone https://github.com/your-username/iso-api-tests.git
+git clone https://github.com/Sydiaka32/Pytest_iso.git
 cd iso-api-tests
 ```
 
@@ -68,27 +66,9 @@ Run a specific test file:
 pytest tests/test_pacs_008stp_valid.py
 ```
 
-## ✅ Test Descriptions
-
-- `test_pacs_008stp_valid.py`  
-  Tests a valid `pacs.008` message with correct structure expecting status `NACKED`.
-
-- `test_pacs_008stp_incorrect_structure.py`  
-  Tests a malformed `pacs.008` message expecting it to be rejected with `NACKED`.
-
-- `test_pacs_009_incorrect_structure.py`  
-  Similar validation for `pacs.009` message format with an incorrect XML structure.
-
 ## 📌 Notes
 
 - The tests use parameterized fixtures (`pacs_008_iso_xml`, `pacs_009_iso_xml`) to load different XML variants.
 - The `send_iso_file()` function abstracts HTTP request logic.
-- The `get_status_from_response()` parses the response to assert if it returns the expected status.
-
-## 🙌 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
