@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Main>
+  <AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02">
+    <Fr>
+      <FIId>
+        <FinInstnId>
+          <Othr>
+            <Id>007SAFF</Id>
+          </Othr>
+        </FinInstnId>
+      </FIId>
+    </Fr>
+    <To>
+      <FIId>
+        <FinInstnId>
+          <Othr>
+            <Id>RAECS</Id>
+          </Othr>
+        </FinInstnId>
+      </FIId>
+    </To>
+    <BizMsgIdr>BizMsgIdr-vd250520wk</BizMsgIdr>
+    <MsgDefIdr>pacs.008.001.08</MsgDefIdr>
+    <BizSvc>STP</BizSvc>
+    <CreDt>2025-05-20T16:53:22.435817</CreDt>
+    <PssblDplct>false</PssblDplct>
+    <Prty>NORM</Prty>
+  </AppHdr>
+  <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+    <FIToFICstmrCdtTrf>
+      <GrpHdr>
+        <MsgId>djufhJm1xNMf</MsgId>
+        <CreDtTm>2025-05-20T16:53:22.435827</CreDtTm>
+        <NbOfTxs>1</NbOfTxs>
+        <SttlmInf>
+          <SttlmMtd>CLRG</SttlmMtd>
+          <SttlmAcct>
+            <Id>
+              <Othr>
+                <Id>XR001_007SAFF_CLR_SAR</Id>
+              </Othr>
+            </Id>
+          </SttlmAcct>
+        </SttlmInf>
+      </GrpHdr>
+      <CdtTrfTxInf>
+        <PmtId>
+          <InstrId>InstrId-pa78-20241025a</InstrId>
+          <EndToEndId>ukrROqPVpXIS8Yz6guy1QYX3VFWHuZt</EndToEndId>
+          <TxId>8oOLBM0Zv5jamQZs2G5Z0UMJ0Vp3xDT</TxId>
+          <UETR>ed81b558-f44a-4e-f6813d6e54d2</UETR>
+        </PmtId>
+        <PmtTpInf>
+          <CtgyPurp>
+            <Cd>DNS</Cd>
+          </CtgyPurp>
+        </PmtTpInf>
+        <SttlmAmt Ccy="SAR">15.47</SttlmAmt>
+        <Amt Ccy="SAR">15.47</Amt>
+        <ChrgBr>DEBT</ChrgBr>
+        <InstgAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>007SAFF</Id>
+            </Othr>
+          </FinInstnId>
+        </InstgAgt>
+        <InstdAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>011BRFF</Id>
+            </Othr>
+          </FinInstnId>
+        </InstdAgt>
+        <UltmtDbtr>
+          <Nm>UltmtDbtr Name</Nm>
+          <CtryOfRes>AR</CtryOfRes>
+        </UltmtDbtr>
+        <Dbtr>
+          <Nm>Joseph Park</Nm>
+          <PstlAdr>
+            <SubDept>SubDept</SubDept>
+            <Room>Room</Room>
+            <PstCd>Postal Code</PstCd>
+            <TwnNm>Town Name</TwnNm>
+            <TwnLctnNm>Town Location Name</TwnLctnNm>
+            <CtrySubDvsn>Country Subdivision</CtrySubDvsn>
+            <Ctry>BR</Ctry>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>ES97LXSTEA7VVZVG5Y9V</IBAN>
+          </Id>
+        </DbtrAcct>
+        <DbtrAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>007SAFF</Id>
+            </Othr>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>011BRFF</Id>
+            </Othr>
+          </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+          <Nm>Leo Miller</Nm>
+          <PstlAdr>
+            <StrtNm>Street Name</StrtNm>
+            <BldgNm>Building Number</BldgNm>
+            <PstCd>Postal Code</PstCd>
+            <TwnNm>Town Name</TwnNm>
+            <Ctry>SA</Ctry>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>IT92GT1Z11494NFQ7E7TKBG</IBAN>
+          </Id>
+        </CdtrAcct>
+        <Purp>
+          <Cd>ICCP</Cd>
+        </Purp>
+        <RmtInf>
+          <Ustrd>HO3dz2-90Z#zlerB, Rq#ErF4#1L/,</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+  </Document>
+</Main>

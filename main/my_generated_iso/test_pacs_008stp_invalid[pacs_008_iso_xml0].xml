@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Main>
+  <AppHdr xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.02">
+    <Fr>
+      <FIId>
+        <FinInstnId>
+          <Othr>
+            <Id>007SAFF</Id>
+          </Othr>
+        </FinInstnId>
+      </FIId>
+    </Fr>
+    <To>
+      <FIId>
+        <FinInstnId>
+          <Othr>
+            <Id>RAECS</Id>
+          </Othr>
+        </FinInstnId>
+      </FIId>
+    </To>
+    <BizMsgIdr>BizMsgIdrqot-20250520be</BizMsgIdr>
+    <MsgDefIdr>pacs.008.001.08</MsgDefIdr>
+    <BizSvc>STP</BizSvc>
+    <CreDt>2025-05-20T16:53:22.823649</CreDt>
+    <PssblDplct>false</PssblDplct>
+    <Prty>NORM</Prty>
+  </AppHdr>
+  <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+    <FIToFICstmrCdtTrf>
+      <GrpHdr>
+        <MsgId>djufhJCnm1xNMf</MsgId>
+        <CreDtTm>2025-05-20T16:53:22.823660</CreDtTm>
+        <NbOfTxs>1</NbOfTxs>
+        <SttlmInf>
+          <SttlmMtd>CLRG</SttlmMtd>
+          <SttlmAcct>
+            <Id>
+              <Othr>
+                <Id>XR001_007SAFF_CLR_BRL</Id>
+              </Othr>
+            </Id>
+          </SttlmAcct>
+        </SttlmInf>
+      </GrpHdr>
+      <CdtTrfTxInf>
+        <PmtId>
+          <InstrId>InstrId-p241025a</InstrId>
+          <EndToEndId>BPVppX8duFZ1gzxjnSH7yHzusCL</EndToEndId>
+          <TxId>4QA8xaeLVheHKz5xlrrP8MEqQyx39</TxId>
+          <UETR>36b741dd-99982fb-dbc44a12c13b</UETR>
+        </PmtId>
+        <PmtTpInf>
+          <CtgyPurp>
+            <Cd>DNS</Cd>
+          </CtgyPurp>
+        </PmtTpInf>
+        <SttlmAmt Ccy="SAR">28.46</SttlmAmt>
+        <SttlmDt>2025-05-20</SttlmDt>
+        <Amt Ccy="SAR">28.46</Amt>
+        <ChrgBr>DEBT</ChrgBr>
+        <InstgAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>007SAFF</Id>
+            </Othr>
+          </FinInstnId>
+        </InstgAgt>
+        <InstdAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>011BRFF</Id>
+            </Othr>
+          </FinInstnId>
+        </InstdAgt>
+        <UltmtDbtr>
+          <Nm>UltmtDbtr Name</Nm>
+          <CtryOfRes>AR</CtryOfRes>
+        </UltmtDbtr>
+        <Dbtr>
+          <Nm>Nathan Jansen</Nm>
+          <PstlAdr>
+            <SubDept>SubDept</SubDept>
+            <Room>Room</Room>
+            <PstCd>Postal Code</PstCd>
+            <TwnNm>Town Name</TwnNm>
+            <TwnLctnNm>Town Location Name</TwnLctnNm>
+            <CtrySubDvsn>Country Subdivision</CtrySubDvsn>
+            <Ctry>BR</Ctry>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>FR65OG43UF1SBKP47IY</IBAN>
+          </Id>
+        </DbtrAcct>
+        <DbtrAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>007SAFF</Id>
+            </Othr>
+          </FinInstnId>
+        </DbtrAgt>
+        <CdtrAgt>
+          <FinInstnId>
+            <Othr>
+              <Id>011BRFF</Id>
+            </Othr>
+          </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+          <Nm>Lillian Moore</Nm>
+          <PstlAdr>
+            <StrtNm>Street Name</StrtNm>
+            <BldgNm>Building Number</BldgNm>
+            <PstCd>Postal Code</PstCd>
+            <TwnNm>Town Name</TwnNm>
+            <Ctry>SA</Ctry>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>FR887VUINYCR2HX3QPO5L5K</IBAN>
+          </Id>
+        </CdtrAcct>
+        <Purp>
+          <Cd>FCDT</Cd>
+        </Purp>
+        <RmtInf>
+          <Ustrd>hpl OeW4Ydb hNp;JOYHHk/a#m.S6lP /K8T0eI, wEBGPiOWgfe-JV2,FQz# &amp;6bZ56phqVul-uACiH&amp;Gx ib/Z8./X86-</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+  </Document>
+</Main>
