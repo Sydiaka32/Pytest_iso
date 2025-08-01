@@ -30,7 +30,6 @@ This project focuses on automated testing of financial message formats such as `
 ### 1. Clone the Project
 ```bash
 git clone https://github.com/Sydiaka32/Pytest_iso.git
-cd iso-api-tests
 ```
 
 ### 2. Create and Activate a Virtual Environment
