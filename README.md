@@ -69,5 +69,3 @@ pytest tests/test_pacs_008stp_valid.py
 
 - The tests use parameterized fixtures (`pacs_008_iso_xml`, `pacs_009_iso_xml`) to load different XML variants.
 - The `send_iso_file()` function abstracts HTTP request logic.
-
-This project is licensed under the [MIT License](LICENSE).
